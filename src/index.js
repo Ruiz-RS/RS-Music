@@ -281,6 +281,10 @@ process.on('unhandledRejection', (error) => {
     logger.error('Unhandled promise rejection:', error);
 });
 
+process.on('uncaughtException', (error) => {
+    logger.error('Uncaught exception:', error);
+});
+
 bootstrap().catch(err => {
     logger.error('Failed to start bot:', err);
     process.exit(1);

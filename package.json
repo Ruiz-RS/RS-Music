@@ -1,11 +1,11 @@
 {
-  "name": "beatdock",
+  "name": "rs-music",
   "version": "2.7.4",
   "description": "A modern and efficient Discord music bot with slash commands, multi-language support, and Docker deployment.",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "docker:build": "docker build -t beatdock:latest .",
+    "docker:build": "docker build -t rs-music:latest .",
     "docker:up": "docker compose up -d",
     "docker:down": "docker compose down",
     "docker:logs": "docker compose logs -f"
@@ -22,16 +22,16 @@
     "docker",
     "nodejs"
   ],
-  "author": "Lázaro <lazaro98@duck.com>",
+  "author": "Ruiz",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lazaroagomez/BeatDock.git"
+    "url": "https://github.com/Ruiz-RS/RS-Music.git"
   },
   "bugs": {
-    "url": "https://github.com/lazaroagomez/BeatDock/issues"
+    "url": "https://github.com/Ruiz-RS/RS-Music/issues"
   },
-  "homepage": "https://github.com/lazaroagomez/BeatDock#readme",
+  "homepage": "https://github.com/Ruiz-RS/RS-Music#readme",
   "engines": {
     "node": ">=22.16.0",
     "npm": ">=11.4.2"
